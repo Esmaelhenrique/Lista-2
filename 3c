@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main ()
+
+{
+    float NA, NB, NC, ND, MD;
+    printf ("insira a primeira nota: ");
+    scanf ("%f", &NA);
+
+    printf ("insira a segunda nota: ");
+    scanf ("%f", &NB);
+
+    printf ("insira a terceira nota: ");
+    scanf ("%f", &NC);
+
+    printf ("insira a quarta nota: ");
+    scanf ("%f", &ND);
+
+    MD= (NA+NB+NC+ND)/4;
+
+    if (MD>=5)
+
+printf ("aprovado, nota %.2f", MD);
+
+else
+    printf ("reprovado, nota %.2f", MD);
+}
