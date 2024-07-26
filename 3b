@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main ()
+
+{
+    float N,F;
+    printf ("digite um numero para N:");
+    scanf ("%f", &N);
+
+    if (N<0)
+    {
+        F=N*(-1);
+        printf ("%.f", F);
+    }
+    else
+        printf ("%.f", N);
+}
