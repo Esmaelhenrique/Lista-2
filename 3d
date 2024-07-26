@@ -1,0 +1,37 @@
+#include<stdio.h>
+void main ()
+
+{
+    float NA, NB, NC, ND, MD1, NE, MD2;
+    printf ("insira a primeira nota: ");
+    scanf ("%f", &NA);
+
+    printf ("insira a segunda nota: ");
+    scanf ("%f", &NB);
+
+    printf ("insira a terceira nota: ");
+    scanf ("%f", &NC);
+
+    printf ("insira a quarta nota: ");
+    scanf ("%f", &ND);
+
+    MD1= (NA+NB+NC+ND)/4;
+
+    if (MD1>=7)
+printf ("aprovado, %.2f", MD1);
+
+else
+{
+    printf ("insira a nota do exame:");
+    scanf ("%f", &NE);
+
+    MD2= (NE+MD1)/2;
+
+    if (MD2>=5)
+
+    printf ("aprovado em exame, nota %.2f", MD2);
+
+    else
+        printf ("reprovado, nota %.2f", MD2);
+}
+}
