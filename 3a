@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main ()
+
+{
+    float A,B,diferenca;
+    printf ("Digite um numero para a:");
+    scanf ("%f", &A);
+    printf ("Digite um numero para b:");
+    scanf ("%f", &B);
+    if (A>B)
+    {
+        diferenca=A-B;
+        printf ("a diferenca do maior numero pelo menor e:%f", diferenca);
+    }
+    else
+    {
+        diferenca=B-A;
+        printf ("a diferenca do maior numero pelo menor e:%.f", diferenca);
+    }
+}
