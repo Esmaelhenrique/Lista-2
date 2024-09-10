@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int valor;
+
+    printf("Digite um valor inteiro: ");
+    scanf("%d", &valor);
+
+    if (valor % 2 == 0) {
+        printf("O valor %d e par.\n", valor);
+    } else {
+        printf("O valor %d e impar.\n", valor);
+    }
+
+    return 0;
+}
